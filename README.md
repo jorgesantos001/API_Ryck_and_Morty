@@ -15,6 +15,8 @@ Este projeto foi criado para demonstrar como consumir uma API utilizando Vue.js 
 
 ## Acessar:
 
+https://rick-and-morty-api-projeto.netlify.app/
+
 ## Tecnologias Utilizadas
 
 - Vue.js
