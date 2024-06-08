@@ -25,7 +25,7 @@ https://rick-and-morty-api-projeto.netlify.app/
 
 ## Autor
 
-Seu Nome
+Jorge Luiz Patrocínio dos Santos
 
 ## Licença
 
