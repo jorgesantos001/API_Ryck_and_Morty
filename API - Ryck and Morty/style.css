@@ -1,0 +1,127 @@
+body {
+    font-family: "Comic Sans MS";
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    flex: 1 0 15%;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #555555;
+    color: whitesmoke;
+}
+
+.character-card {
+    text-align: center;
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    border-radius: 5px;
+}
+
+.character-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.alive {
+    background-color: #45D619;
+}
+.dead {
+    background-color: #ce122f;
+}
+.unknown {
+    background-color: #d5d5d5;
+}
+
+.load-more {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#app > button:first-of-type {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.loading {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 25%;
+    min-width: 150px;
+    padding: 13px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+@media (min-width: 768px) {
+    input[type="text"] {
+        max-width: 50%;
+    }
+}
+
+
